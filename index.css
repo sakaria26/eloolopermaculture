@@ -17,6 +17,11 @@ a{
 
 /*---------------------------navbar--------------------------*/
 
+.fa-bars{
+    color: #ffffff;
+    font-size: larger;
+    font-weight: 300;
+}
 #navbar{
     background-color: black;
     position: fixed;
