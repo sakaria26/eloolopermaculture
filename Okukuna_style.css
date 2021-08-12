@@ -1,0 +1,125 @@
+*
+
+h1{
+    font-family: 'STIX Two Text', serif;
+    text-transform: uppercase;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+p{
+    color: #000;
+    font-size: 25px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+/*---------------------------navbar--------------------------*/
+
+#navbar{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#navbar h1{
+    font-size: larger;
+    color: white;
+    text-transform: uppercase;
+}
+
+#navbar h2{
+    font-size: large;
+    color: white;
+    text-transform: uppercase;
+}
+.logo{
+    width: 6em;
+}
+
+.menu{
+    float: right;
+}
+
+    /*projects dropdown menu*/
+    /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /*login*/
+  .login img{
+    width: 6em;
+}
+
+/*introduction*/
+#block{
+    padding-top: 2em;
+    padding-left: 8rem;
+    float: left;
+    
+}
+.intro{
+    background-color: #ffffff75;
+    border: 2px solid rgb(0, 0, 0);
+    width: 50em;
+    padding: 5em;
+    justify-content: center;
+}
+
+.intro h1{
+    font-family: 'STIX Two Text', serif;
+    text-transform: uppercase;
+}
+
+
+#block2{
+    padding-top: 2em;
+    float: right;
+    padding-right: 8rem;
+}
+
+
+/*----------footer--------------*/
+#footer{
+    margin-top: 5em;
+    padding-top: 2em;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    float: right;
+    background-color: #ffffff;
+    
+}
+
+#footer h1{
+    color: black;
+    padding-bottom: 1em;
+}
+.partners{
+    width: 5em;
+    justify-content: center;
+    margin-left: 50px;
+}

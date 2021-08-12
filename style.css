@@ -1,0 +1,119 @@
+*
+body{
+    background-image: url('https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZW52aXJvbm1lbnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1, h2, h3{
+    color: white;
+    text-transform: uppercase;
+}
+
+
+
+/*---------------------------navbar--------------------------*/
+
+#navbar{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#navbar h1{
+    font-size: larger;
+}
+
+#navbar h2{
+    font-size: large;
+}
+.logo{
+    width: 6em;
+}
+
+.menu{
+    float: right;
+}
+
+    /*projects dropdown menu*/
+    /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover{
+      background-color: #ffffff;
+    }
+  .project h2:hover{
+      color: black;
+  }
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+    padding-right: 50em;
+  }
+
+  /*login*/
+  .login img{
+    width: 6em;
+}
+
+      
+/*introduction*/
+#block{
+    padding-top: 8em;
+    padding-left: 8rem;
+    float: left;
+    
+}
+
+#block p{
+    font-size: 25px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.intro{
+    border: 2px solid black;
+    width: 50em;
+    padding: 5em;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+#block2{
+    padding-top: 8em;
+    float: right;
+    padding-right: 8rem;
+}
+/*----------footer--------------*/
+#footer{
+    
+    padding-top: 8em;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    float: right;
+}
+
+#footer h1{
+    color: black;
+    padding-bottom: 2em;
+}
+.partners{
+    width: 10em;
+    justify-content: center;
+}

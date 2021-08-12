@@ -1,0 +1,175 @@
+*
+
+h1{
+    font-family: 'STIX Two Text', serif;
+    text-transform: uppercase;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+p{
+    color: #000;
+    font-size: 25px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+/*---------------------------navbar--------------------------*/
+
+#navbar{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#navbar h1{
+    font-size: larger;
+    color: white;
+    text-transform: uppercase;
+}
+
+#navbar h2{
+    font-size: large;
+    color: white;
+    text-transform: uppercase;
+}
+.logo{
+    width: 6em;
+}
+
+.menu{
+    float: right;
+}
+
+    /*projects dropdown menu*/
+    /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /*login*/
+  .login img{
+    width: 6em;
+}
+
+
+/*introduction*/
+#block{
+    padding-top: 2em;
+    padding-left: 8rem;
+    float: left;
+    
+}
+.intro{
+    
+    background-color:#ffffff75;
+    border: 2px solid rgb(0, 0, 0);
+    width: 50em;
+    padding: 5em;
+    justify-content: center;
+}
+
+
+.out{
+    border: 0px solid #000;
+    width: 53em;
+    background: #7fd937;
+}
+
+.e{
+    background: #ffffff;
+    opacity: 0.7;
+}
+#block2{
+    padding-top: 2em;
+    float: right;
+    padding-right: 8rem;
+}
+
+
+/*----------footer--------------*/
+#footer{
+    margin-top: 5em;
+    padding-top: 2em;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    float: right;
+    background-color: #ffffff;
+    
+}
+
+#footer h1{
+    color: black;
+    padding-bottom: 1em;
+}
+.partners{
+    width: 5em;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.mySlides{
+    display:none;
+}
+
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #93E9BE;
+    background-color: #93E9BE;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ffffff75;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    border-top: none;
+  }

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Eloolo Permaculture Farm Okukuna</title>
+    <link rel="stylesheet" href="Okukuna_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body style="background:url(BG_img1.jpg); background-repeat: no-repeat; background-attachment: fixed; background-position: 0cm;">
+    
+    <!------------------------navbar------------------------------>
+    <section id="navbar">
+
+        <div>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <div class="col-lg-6">
+                        <a class="navbar-brand" href="#"><img src="2white.png" alt="" class="logo"></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                    </div>
+
+                    <!-----navigation menu---------->
+                    <div class="col-lg-6">
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="float: right;">
+                            <div class="navbar-nav">
+                                <a class="nav-link active" aria-current="page" href="index.html"><h1>home</h1></a>
+                                <a class="nav-link" href="aboutus.html"><h1>about us</h1></a>
+                                <a class="nav-link" href="contact.html"><h1>contact us</h1></a>
+
+                                    <!---projects-->
+                                    <div class="dropdown">
+                                        <a href="projects.html" class="nav-link"> <h1>projects</h1> </a>
+                                            <div class="dropdown-content project">
+                                                <a href="clean_travel.html"><h2>Clean Travel</h2></a>
+                                                <a href="Klippdachs_Kaserne.html"><h2>Klippdachs Kaserne</h2></a>
+                                                <a href="Farm_Okukuna.html"><h2>Farm Okukuna</h2></a>
+                                            </div>
+                                    </div>
+
+                                    <!---login--->
+                                    <div class="login">
+                                        <!----button--->
+                                        <a href="login.html"> <img src="loging.png" alt="login"> </a>
+                                            
+                                    </div>
+
+                                
+                            </div>
+                          </div>
+                    </div>
+                  
+                </div>
+              </nav>
+        </div>
+        
+    </section>
+
+
+
+        <!---block1-->
+        <section id="block" style="padding-top: 6em;">
+            <div class="container" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="intro">
+                        <img src="1.png" alt="" style="height: 120px;">
+                        <h4 style="font-size: 40px;">
+                            Farm Okukuna
+                        </h4>
+                        <p>
+                            
+                            Farm Okukuna is a visionary new project to enhance food and nutrition security in the informal settlements of Windhoek. 
+                            The farm act as the centre for a number of programmes, including growing food, marketing it and engaging the community on healthy nutrition.
+                        </p>
+                        <p>
+                            <ul style="color: black;font-size: 20px;">
+                            We are committed to
+
+                            <li>Improve food and nutrition security, especially for women and children</li>
+
+                            <li>Improve income situation and support the development of micro-enterprises, particularly for women</li>
+
+                            <li>Further develop the food and nutrition security framework of the City of Windhoek</li>
+                            </ul>
+                        </p>
+                        <div class="w3-content w3-section" style="max-width:500px; padding-top: 40px;">
+                            <img class="mySlides" src="okukuna_img1.webp" style="width:100%">
+                            <img class="mySlides" src="okukuna_img2.webp" style="width:100%">
+                            <img class="mySlides" src="okukuna_img3.webp" style="width:100%">
+                            <img class="mySlides" src="okukuna_img4.webp" style="width:100%">
+                            <img class="mySlides" src="okukuna_img5.webp" style="width:100%">
+                            
+                            <img class="mySlides" src="okukuna_img7.webp" style="width:100%">
+                            <img class="mySlides" src="okukuna_img8.webp" style="width:100%">
+                            
+                            <img class="mySlides" src="okukuna_img10.webp" style="width:100%">
+                            <img class="mySlides" src="okukuna_img11.webp" style="width:100%">
+                            <img class="mySlides" src="okukuna_img12.webp" style="width:100%">
+                          </div>
+                          
+                          <script>
+                          var myIndex = 0;
+                          carousel();
+                          
+                          function carousel() {
+                            var i;
+                            var x = document.getElementsByClassName("mySlides");
+                            for (i = 0; i < x.length; i++) {
+                              x[i].style.display = "none";  
+                            }
+                            myIndex++;
+                            if (myIndex > x.length) {myIndex = 1}    
+                            x[myIndex-1].style.display = "block";  
+                            setTimeout(carousel, 2000); // Change image every 2 seconds
+                          }
+                          </script>
+                    </div>
+            </div>
+        </section>
+
+        <br>
+
+        <!---block2-->
+        <section id="block2">
+            <div class="container" data-aos="fade-left"
+            data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
+                    <div class="intro">
+                        <img src="1.png" alt="" style="height: 120px;">
+                        <h4 style="font-size: 40px;">
+                            City of Windhoek 
+                        </h4>
+                        <p>
+                            
+                            The World Future Council and the City of Windhoek have been engaging for a number of years on programmes for food and nutrition security. 
+                            The cooperation is inspired by the celebrated food policy system of the Brazilian city of Belo Horizonte.
+                        </p>
+                        <p>
+                            The “Department of Economic Development & Community Services” of the City is responsible for the Farm Okukuna project. Witch experience in reaching out to the community, 
+                            the City is committed to enhancing food and nutrition security. 
+                            The City is currently putting up fencing and will hire and pay an on-site care taker and security in the long-term.
+                            It will also provide a connection to electricity and water (semi-purified and fresh).
+                        </p>
+                        <p>
+                            Please support us
+                        </p>
+                        <ul style="color: black;font-size: 20px;">
+                            <li>We need a drip irrigation system (please donate via betterplace.org or via our Donate page)</li>
+
+                            <li>We need funding/donations or in-kind contributions to fix up the houses on site (windows and pains, bathroom, kitchen, paint, locks)</li>
+                        </ul>
+                        
+                    </div>
+            </div>
+        </section>
+
+            <br>
+        
+        <!---block3-->
+        <section id="block" style=" padding-bottom: 40px">
+            <div class="container" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="intro">
+                        <img src="1.png" alt="" style="height: 120px;">
+                        <h4 style="font-size: 40px;">
+                            Contacts
+                        </h4>
+                        <p style="font-size: 20px;">
+                            
+                            Donovan Wagner
+                            <br>
+                            Eloolo Permaculture Initiative
+                            <br>
+                            <a href="mailto:info@eloolopermaculture.org">info@eloolopermaculture.org</a>
+                            <br>
+                            P: 081 - 867 9297
+                        </p>
+                        <p style="font-size: 20px;">
+                            Ina Neuberger Wilkie
+                            <br>
+                            World Future Council
+                            <br>
+                            <a href="mailto:ina@worldfuturecouncil.org">ina@worldfuturecouncil.org</a>
+                            <br>
+                            P: 081 - 244 3981
+                        </p>
+                        <p style="font-size: 20px;">
+                            Monika Shefeeni        
+                            <br>
+                            City of Windhoek           
+                            <br>
+                            <a href="mailto:Monika.Sheefeni@windhoekcc.org.na">Monika.Sheefeni@windhoekcc.org.na</a>
+                            <br>                
+                            P: 081 - 124 3783   
+                        </p>                                                    
+                    </div>
+            </div>
+        </section>
+                
+<!-----------------footer----------------->
+<section id="footer" class="text-center">
+    <h1>Partners and Friends</h1>
+    <div class="container text-center outer">
+                <img src="Dagbreek.jpg" alt="" class="partners">
+           
+                <img src="tosco.png" alt="" class="partners">
+            
+                <img src="sun.png" alt="" class="partners">
+           
+                <img src="windhoek.jpg" alt="" class="partners">
+            
+                <img src="http://www.fabulasdecomunicacion.es/files/2017/11/wfc.jpg" alt="" class="partners">
+    </div>
+</section>
+    
+        <!-----------javascript for fade in, fade out on scroll----------->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script>
+        AOS.init({
+                    once:true
+                });;
+            </script>
+</body>
+</html>
